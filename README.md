@@ -2,7 +2,7 @@
 
 This is a reposity for tensor completion using cross tensor approximation algorithms.
 
-We may need the codes from the following repositories for the comparing the results of cross algorithms with the other completion algorithms
+We may need the codes from the following repositories for comparing the results of cross algorithms with the other completion algorithms
 
 https://github.com/yuanlonghao
 
