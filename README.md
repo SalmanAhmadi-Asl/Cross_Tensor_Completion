@@ -1,6 +1,6 @@
 # Cross_Tensor_Completion
 
-This is a reposity for tensor completion using cross tensor approximation algorithms. To run the codes, you need some function of the following toolboxes 
+This is a reposity for tensor completion using cross tensor approximation algorithms. To run the codes, you need some functions of the following toolboxes 
 
 https://github.com/canyilu/Tensor-tensor-product-toolbox
 
@@ -17,3 +17,5 @@ https://github.com/wangwenqi1990/TensorRingCompletion
 https://sites.google.com/site/yokotatsuya/home/software/smooth-parafac-decomposition-for-tensor-completion
 
 For the video datasets visit the following page: http://trace.eas.asu.edu/yuv/
+
+The paper is accessible at https://arxiv.org/abs/2207.06072?context=math
