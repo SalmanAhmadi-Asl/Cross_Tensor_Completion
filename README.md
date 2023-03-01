@@ -22,3 +22,6 @@ The paper is accessible at
 '''
 https://arxiv.org/abs/2207.06072?context=math
 '''
+
+https://user-images.githubusercontent.com/93009466/222181609-d690793a-b24a-4301-a304-c966dbdbfa7c.mp4
+
