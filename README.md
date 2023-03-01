@@ -22,4 +22,3 @@ The paper is accessible at
 '''
 https://arxiv.org/abs/2207.06072?context=math
 '''
-<img width="779" alt="30_centroids_crop_tnn" src="https://user-images.githubusercontent.com/93009466/222140886-de3682d6-4c91-47ae-ae9d-0841c79bfb07.png">
