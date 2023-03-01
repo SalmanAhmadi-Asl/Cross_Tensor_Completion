@@ -22,4 +22,4 @@ The paper is accessible at
 '''
 https://arxiv.org/abs/2207.06072?context=math
 '''
-misc/odenet4.png
+![Screenshot](screenshot.png)
