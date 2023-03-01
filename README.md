@@ -19,6 +19,6 @@ https://sites.google.com/site/yokotatsuya/home/software/smooth-parafac-decomposi
 For the video datasets visit the following page: http://trace.eas.asu.edu/yuv/
 
 The paper is accessible at 
-'''
+```
 https://arxiv.org/abs/2207.06072?context=math
-'''
+```
