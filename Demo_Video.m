@@ -168,7 +168,7 @@ imshow(uint8(X(:,:,j*5)))
 j=j+1;
 end
 %%%%%%%%%%%%%%%%%Mahoney
-%%For all images we used 23 slices and 1200 tubes except he 90% missing case for
+%%For all images we used 23 slices and 1200 tubes except the 90% missing case for
 %%which we have used 13 sllices and 1500 tubes in each iteration
 
 R1=90;
