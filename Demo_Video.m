@@ -121,7 +121,7 @@ for i=1:5
 subplot(1,5,i)
 imshow(uint8(Z(:,:,Sn(i))))
 end
-%%%%%%%%%%%%%tubal%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% %%%%%%%%%%%tubal%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 R1=35;
 R2=45;
 X=randn(144,176,300);
@@ -129,7 +129,7 @@ ps=[];
 sm=[];
 tic
 for i=1:100
-Y=TubSampl2(X,R1,R2);
+Y=TubSampl(X,R1,R2);
 X=Q.*Z+(~Q).*Y;
 PSNR(B_Miss(:,:,i),Z(:,:,i))
 i
@@ -167,7 +167,7 @@ subplot(2,5,i)
 imshow(uint8(X(:,:,j*5)))
 j=j+1;
 end
-%%%%%%%%%%%%%%%%%Mahoney
+%% %%%%%%%%%%%%%%%Mahoney
 %%For all images we used 23 slices and 1200 tubes except the 90% missing case for
 %%which we have used 13 sllices and 1500 tubes in each iteration
 
@@ -217,7 +217,7 @@ subplot(2,5,i)
 imshow(uint8(X(:,:,j*5)))
 j=j+1;
 end
-%%%%%%%%%%%%%%TRLF
+%% %%%%%%%%%%%%TRLF
 r=5*ones(1,3); % TR-rank 
 maxiter=300; % maxiter 300~500
 tol=1e-6; % 1e-6~1e-8
@@ -260,7 +260,7 @@ imshow(uint8(X(:,:,j*5)))
 j=j+1;
 end
 
-%%%%%%%%%%%%%%%WOPT
+%% %%%%%%%%%%%%%WOPT
 N=3;
 r_select=6;
  maxiter_trwopt=100;
@@ -290,7 +290,7 @@ subplot(2,5,i)
 imshow(uint8(X(:,:,j*5)))
 j=j+1;
 end
-%%%%%%%%%%%%%%TRALS
+%% %%%%%%%%%%%%TRALS
 % 
 % figure()
 % imshow(uint8(Data_Missing));
@@ -374,7 +374,7 @@ imshow(uint8(Data_Recover_TR(:,:,j*5)))
 j=j+1;
 end
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%SPC
+%% %%%%%%%%%%%%%%%%%%%%%%%%SPC
 clc;clear all
 %X =double(imread('house.bmp')); 
 X=Z;
