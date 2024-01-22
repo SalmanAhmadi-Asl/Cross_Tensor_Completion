@@ -16,7 +16,7 @@ https://github.com/wangwenqi1990/TensorRingCompletion
 
 https://sites.google.com/site/yokotatsuya/home/software/smooth-parafac-decomposition-for-tensor-completion
 
-For the video datasets visit the following page: http://trace.eas.asu.edu/yuv/
+For the video datasets visit the page: http://trace.eas.asu.edu/yuv/
 
 The paper is accessible at https://arxiv.org/abs/2207.06072?context=math
 
