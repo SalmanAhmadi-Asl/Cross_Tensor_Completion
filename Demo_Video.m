@@ -25,7 +25,9 @@ X=randn(144,176,300);
 ps=[];
 tic
 for i=1:100
- Y=TuckerSample(X,R1,R2,R3);
-X=Q.*Z+(~Q).*Y;
+Y=TuckerSample(X,R1,R2,R3);
+X=B_Miss +(~Q).*Y;
 end
 toc
+
+imshow(uint8(X(:,:,1)))
