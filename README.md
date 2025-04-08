@@ -1,6 +1,6 @@
 # Cross_Tensor_Completion
 
-This is a reposity for tensor completion using cross tensor approximation algorithms. To run the codes, you need some functions of the following toolboxes 
+This is a repository for tensor completion using cross tensor approximation algorithms. To run the codes, you need some functions of the following toolboxes 
 
 https://github.com/canyilu/Tensor-tensor-product-toolbox
 
